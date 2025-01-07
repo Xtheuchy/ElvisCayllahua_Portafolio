@@ -1,0 +1,139 @@
+.about{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container-about{
+    background-color: rgb(7, 4, 32);
+    padding: 20px 0;
+}
+.info-about{
+    width: 40%;
+}
+.info-about p{
+    color: white;
+    font-size: 17px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 25px;
+}
+.image{
+    width: 40%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    width: 60%;
+    object-fit: cover;
+    height: 80%;
+    rotate: 10deg;
+    border-radius: 20px;
+    border: rgb(255, 255, 255) ridge;
+    padding: 10px;
+}
+.title-about h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+}
+.redes{
+    margin: 20px 0;
+}
+.redes ul{
+    display: flex;
+    gap: 30px;
+}
+.redes ul li {
+    font-size: 25px;
+}
+.redes ul li  a{
+    color: white;
+    transition: 0.5s;
+}
+.redes ul li a:hover{
+    color: rgb(75, 185, 163);
+}
+/* Para pantallas pequeñas (teléfonos móviles) */
+@media (max-width: 576px) {
+    .about{
+        flex-direction: column;
+    }
+    .info-about{
+        width: 90%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .image{
+        width: 60%;
+        display: flex;
+    }
+    .image img{
+        width: 100%;
+        object-fit: cover;
+        height: 80%;
+        rotate: 10deg;
+        border-radius: 20px;
+        border: rgb(255, 255, 255) ridge;
+        padding: 10px;
+    }
+}
+/* Para tabletas pequeñas */
+@media (min-width: 577px) and (max-width: 768px) {
+    .about{
+        flex-direction: column;
+    }
+    .info-about{
+        width: 90%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .image{
+        width: 60%;
+        display: flex;
+    }
+    .image img{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        rotate: 10deg;
+        border-radius: 20px;
+        border: rgb(255, 255, 255) ridge;
+        padding: 10px;
+    }
+}
+        
+/* Para laptops pequeñas */
+@media (min-width: 769px) and (max-width: 992px) {
+    .about{
+        flex-direction: column;
+    }
+    .info-about{
+        width: 90%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .image{
+        width: 60%;
+        display: flex;
+    }
+    .image img{
+        width: 100%;
+        object-fit: cover;
+        height: 80%;
+        rotate: 10deg;
+        border-radius: 20px;
+        border: rgb(255, 255, 255) ridge;
+        padding: 10px;
+    }
+}

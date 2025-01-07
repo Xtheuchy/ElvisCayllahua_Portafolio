@@ -1,0 +1,20 @@
+.services{
+    background-color: rgb(7, 4, 32);
+}
+.title_service{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+.title_service{
+    font-size: 40px;
+}
+.contianer-card-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}

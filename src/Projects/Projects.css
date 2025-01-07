@@ -1,0 +1,16 @@
+.Container-projects{
+    background-color: rgb(7, 4, 32);
+     padding: 20px 0;
+}
+.container-card-project{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.title-project{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}

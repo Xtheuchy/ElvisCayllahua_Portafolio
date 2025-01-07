@@ -1,0 +1,74 @@
+.card-project{
+    width: 460px;
+    height: 260px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 64, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card-project img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 10px;
+}
+.card-project:hover .project-txt{
+    opacity: 1;
+}
+.project-txt{
+    border-radius: 10px;
+    opacity: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.856);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.card-descripcion{
+    color: rgb(208, 206, 206);
+    margin: 5px 0;
+}
+.title-card-project{
+    font-size: 25px;
+    padding: 5px 0;
+    color: rgb(255, 194, 61);
+}
+.tec-txt h1{
+    font-size: 20px;
+    margin: 10px 0;
+    color: aqua;
+}
+.tec-txt p{
+    color: rgb(208, 206, 206);
+}
+.info-txt{
+    width: 60%;
+    padding: 10px;
+}
+.verproject{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.verproject a{
+    width: 130px;
+    height: 40px;
+    border: 2px solid wheat;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+}
+.verproject a i{
+    color: rgb(0, 195, 255);
+}
