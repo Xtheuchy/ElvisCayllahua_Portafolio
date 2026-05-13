@@ -1,13 +1,48 @@
 <!doctype html>
-<html lang="en">
+<html lang="es" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primarios SEO -->
+    <meta name="description" content="Elvis Cayllahua Condori — Desarrollador Web Frontend. Especializado en React, JavaScript, HTML y CSS. Portafolio de proyectos y servicios." />
+    <meta name="keywords" content="Elvis Cayllahua, desarrollador web, portafolio, React, JavaScript, Spring Boot, Java" />
+    <meta name="author" content="Elvis Cayllahua Condori" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Elvis Cayllahua — Desarrollador Web" />
+    <meta property="og:description" content="Desarrollador Web Frontend y Backend especializado en React, Spring Boot y creación de contenido tech. Explora mis proyectos y servicios." />
+    <meta property="og:image" content="/favicon.svg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Elvis Cayllahua — Desarrollador Web" />
+    <meta name="twitter:description" content="Desarrollador Web Frontend y Backend especializado en React, Spring Boot y creación de contenido tech." />
+    <meta name="twitter:image" content="/favicon.svg" />
+
+    <!-- Theme init: runs before paint to avoid flash -->
+    <script>
+      (function() {
+        var saved = localStorage.getItem('ec-theme');
+        var preferred = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', saved || preferred);
+      })();
+    </script>
+
+    <!-- Google Fonts: Syne (display) + Outfit (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-    <title>Elvis Cayllahua - Portafolio</title>
-    <script type="module" crossorigin src="/assets/index-BgAccpMf.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-C6GXMaGO.css">
+
+    <title>Elvis Cayllahua — Desarrollador Web</title>
+    <script type="module" crossorigin src="/assets/index-DJSq625W.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Csk6wDV_.css">
   </head>
   <body>
     <div id="root"></div>
